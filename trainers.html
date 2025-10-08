@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Pulse Gym - Trainers</title>
+  <link rel='stylesheet' href='style.css'>
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body class='bg-background text-text'>
+  <header class='bg-white shadow-md sticky top-0 z-50' aria-label='Site header'>
+    <div class='max-w-7xl mx-auto px-4 py-4 flex items-center justify-between'>
+      <a href='index.html' class='flex items-center gap-2' aria-label='Pulse Gym home'>
+        <span class='h-8 w-8 rounded-full bg-gradient-to-tr from-blue-400 to-teal-400'></span>
+        <span class='text-xl font-semibold text-gray-800'>Pulse Gym</span>
+      </a>
+      <nav class='hidden md:flex space-x-6' aria-label='Main Navigation'>
+        <a href='classes.html' class='text-gray-700 hover:text-blue-600'>Classes</a>
+        <a href='trainers.html' class='text-gray-700 hover:text-blue-600'>Trainers</a>
+        <a href='schedule.html' class='text-gray-700 hover:text-blue-600'>Schedule</a>
+        <a href='membership.html' class='text-gray-700 hover:text-blue-600'>Memberships</a>
+        <a href='facilities_&_gallery.html' class='text-gray-700 hover:text-blue-600'>Facilities</a>
+        <a href='blog.html' class='text-gray-700 hover:text-blue-600'>Blog</a>
+        <a href='contact.html' class='text-gray-700 hover:text-blue-600'>Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class='max-w-7xl mx-auto px-4 py-8'>
+    <section class='mb-6'>
+      <h1 class='text-4xl font-bold mb-2'>Meet Our Trainers</h1>
+      <p class='text-gray-700'>Get to know the coaches behind your progress.</p>
+    </section>
+
+    <section class='grid grid-cols-1 md:grid-cols-3 gap-6'>
+      <div class='TrainerCard p-6 bg-white rounded-lg shadow reveal'>
+        <div class='h-40 w-full rounded-lg bg-gradient-to-br from-blue-300 to-teal-300 mb-3'></div>
+        <h3 class='font-semibold'>Kai Chen</h3>
+        <p class='text-sm text-gray-600'>Strength & Conditioning</p>
+      </div>
+      <div class='TrainerCard p-6 bg-white rounded-lg shadow reveal'>
+        <div class='h-40 w-full rounded-lg bg-gradient-to-br from-purple-300 to-pink-300 mb-3'></div>
+        <h3 class='font-semibold'>Mia Lopez</h3>
+        <p class='text-sm text-gray-600'>Yoga & Mobility</p>
+      </div>
+      <div class='TrainerCard p-6 bg-white rounded-lg shadow reveal'>
+        <div class='h-40 w-full rounded-lg bg-gradient-to-br from-green-300 to-lime-300 mb-3'></div>
+        <h3 class='font-semibold'>Jon Park</h3>
+        <p class='text-sm text-gray-600'>HIIT & Cardio</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class='bg-white border-t mt-12'>
+    <div class='max-w-7xl mx-auto px-4 py-6 text-sm text-gray-600'>© 2025 Pulse Gym. All rights reserved.</div>
+  </footer>
+
+  <script src='script.js'></script>
+</body>
+</html>
