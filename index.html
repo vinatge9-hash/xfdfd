@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Pulse Gym - Home</title>
+  <link rel='stylesheet' href='style.css'>
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body class='bg-background text-text'>
+  <!-- Header -->
+  <header class='bg-white shadow-md sticky top-0 z-50' aria-label='Site header'>
+    <div class='max-w-7xl mx-auto px-4 py-4 flex items-center justify-between'>
+      <a href='index.html' class='flex items-center gap-2' aria-label='Pulse Gym home'>
+        <span class='h-8 w-8 rounded-full bg-gradient-to-tr from-blue-400 to-teal-400' aria-hidden='true'></span>
+        <span class='text-xl font-semibold text-gray-800'>Pulse Gym</span>
+      </a>
+      <nav class='hidden md:flex space-x-6' aria-label='Main Navigation'>
+        <a href='classes.html' class='text-gray-700 hover:text-blue-600'>Classes</a>
+        <a href='trainers.html' class='text-gray-700 hover:text-blue-600'>Trainers</a>
+        <a href='schedule.html' class='text-gray-700 hover:text-blue-600'>Schedule</a>
+        <a href='memberships.html' class='text-gray-700 hover:text-blue-600'>Memberships</a>
+        <a href='facilities_&_gallery.html' class='text-gray-700 hover:text-blue-600'>Facilities</a>
+        <a href='blog.html' class='text-gray-700 hover:text-blue-600'>Blog</a>
+        <a href='contact.html' class='text-gray-700 hover:text-blue-600'>Contact</a>
+      </nav>
+      <a href='schedule.html' class='hidden md:inline-flex items-center px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-all duration-300' id='openBooking'>Book a class</a>
+    </div>
+  </header>
+
+  <!-- Hero & Testimonials on Home -->
+  <main>
+    <!-- Hero Section (Prominent) -->
+    <section class='hero min-h-screen flex items-center bg-gradient-to-br from-white via-sky-50 to-sky-100'>
+      <div class='container mx-auto px-6 py-20 flex flex-col lg:flex-row items-center'>
+        <div class='w-full lg:w-1/2'>
+          <span class='inline-block text-sm uppercase text-blue-500 font-semibold tracking-widest mb-4 reveal'>New Season</span>
+          <h1 class='text-5xl md:text-6xl font-extrabold text-gray-800 mb-4 reveal' style='line-height:1.15'>Train smarter. Train brighter.</h1>
+          <p class='text-lg text-gray-600 mb-6 max-w-md reveal'>Pulse Gym offers expert-led classes, modern facilities, and a welcoming community. Join today for a brighter, stronger you.</p>
+          <div class='flex flex-wrap gap-4'>
+            <a href='schedule.html' class='px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-all duration-300 shadow' id='openBooking'>Schedule a class</a>
+            <a href='memberships.html' class='px-6 py-3 border border-blue-600 text-blue-600 rounded-md hover:bg-blue-50 transition-all duration-300'>View memberships</a>
+          </div>
+        </div>
+        <div class='w-full lg:w-1/2 mt-8 lg:mt-0' aria-label='Hero visual'>
+          <div class='h-96 bg-gradient-to-br from-blue-100 to-white rounded-lg shadow-lg'></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id='testimonials' class='py-16 bg-white'>
+      <div class='container mx-auto px-4'>
+        <h2 class='text-3xl font-bold text-gray-800 mb-6 reveal'>What members say</h2>
+        <div class='grid grid-cols-1 md:grid-cols-3 gap-6'>
+          <figure class='p-6 bg-gray-50 rounded-lg shadow reveal'>
+            <blockquote class='text-gray-700'>“The community is incredibly supportive and the workouts deliver real results.”</blockquote>
+            <figcaption class='mt-4 flex items-center gap-3'>
+              <span class='w-10 h-10 rounded-full bg-gradient-to-tr from-indigo-500 to-blue-400' aria-label='avatar'></span>
+              <div>
+                <strong>Alex P.</strong><br>
+                <span class='text-sm text-gray-500'>Marathoner</span>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class='p-6 bg-gray-50 rounded-lg shadow reveal'>
+            <blockquote class='text-gray-700'>“Loved the trainers and the flexible schedule.”</blockquote>
+            <figcaption class='mt-4 flex items-center gap-3'>
+              <span class='w-10 h-10 rounded-full bg-gradient-to-tr from-pink-500 to-yellow-500' aria-label='avatar'></span>
+              <div>
+                <strong>Sara R.</strong><br>
+                <span class='text-sm text-gray-500'>Designer</span>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class='p-6 bg-gray-50 rounded-lg shadow reveal'>
+            <blockquote class='text-gray-700'>“The facilities are spotless and modern. Highly recommend.”</blockquote>
+            <figcaption class='mt-4 flex items-center gap-3'>
+              <span class='w-10 h-10 rounded-full bg-gradient-to-tr from-green-500 to-teal-500' aria-label='avatar'></span>
+              <div>
+                <strong>Jon M.</strong><br>
+                <span class='text-sm text-gray-500'>Product Manager</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id='cta' class='py-16 bg-gray-50'>
+      <div class='container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-6'>
+        <div>
+          <h3 class='text-2xl font-bold text-gray-800 mb-2'>Ready to elevate your training?</h3>
+          <p class='text-gray-600'>Join Pulse Gym today and access unlimited classes, expert coaching, and member perks.</p>
+        </div>
+        <div class='flex flex-wrap gap-4'>
+          <a href='schedule.html' class='px-5 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-all duration-300'>View Schedule</a>
+          <a href='membership.html' class='px-5 py-3 border border-blue-600 text-blue-600 rounded-md hover:bg-blue-50 transition-all duration-300'>See Memberships</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Newsletter (footer area) -->
+  <section class='bg-white py-8'>
+    <div class='container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4'>
+      <div class='text-sm text-gray-600'>Get fitness tips and updates in your inbox.</div>
+      <form class='flex items-center space-x-2' onsubmit='return false'>
+        <input aria-label='Newsletter email' type='email' placeholder='Enter your email' class='border rounded-md px-3 py-2' />
+        <button type='submit' class='bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-all duration-300'>Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Booking Modal (hidden by default) -->
+  <div id='bookingModal' class='fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center' aria-hidden='true'>
+    <div class='bg-white rounded-lg shadow-2xl p-6 w-full max-w-md' role='dialog' aria-label='Booking dialog'>
+      <div class='flex items-center justify-between mb-4'>
+        <h4 class='font-semibold text-lg'>Book a Class</h4>
+        <button id='closeModal' class='text-gray-500 hover:text-gray-700'>✕</button>
+      </div>
+      <form class='space-y-4'>
+        <div>
+          <label class='block text-sm font-medium mb-1'>Your name</label>
+          <input type='text' class='w-full border rounded px-3 py-2' placeholder='Jane Doe' required />
+        </div>
+        <div>
+          <label class='block text-sm font-medium mb-1'>Email</label>
+          <input type='email' class='w-full border rounded px-3 py-2' placeholder='you@example.com' required />
+        </div>
+        <div>
+          <label class='block text-sm font-medium mb-1'>Class</label>
+          <select class='w-full border rounded px-3 py-2'>
+            <option>Sunrise Yoga</option>
+            <option>HIIT Power</option>
+            <option>Strength Circuit</option>
+          </select>
+        </div>
+        <div class='flex items-center justify-between'>
+          <button type='submit' class='px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-all duration-300'>Confirm Booking</button>
+          <span class='text-sm text-gray-500'>Your booking will be confirmed by email.</span>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src='script.js'></script>
+</body>
+</html>
